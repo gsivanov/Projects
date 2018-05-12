@@ -1,0 +1,1059 @@
+
+// ------- The Task: -------------------------------------------------
+// Show existing pre-defined layouts (UIConfigs) in Phone/Mobile view
+// -------------------------------------------------------------------
+
+
+// C:\Dynamo\Web UI\Dynamo6\Dynamo6Web2\Dynamo6Web2\Controllers\LayoutController.cs
+public ActionResult LoadLayout(string[] layoutKey, string parentEntityName, string parentDynamoId, bool includeFiltered = false)
+{
+	string str = uiConfigs[0].data;
+	System.Diagnostics.Debug.WriteLine(str);
+}
+
+
+
+// ----------
+// jasmine
+// ----------
+// C:\Dynamo\Web UI\Dynamo6\Dynamo6Web2\Dynamo6Web2\App_Start\RouteConfig.cs
+public static void RegisterRoutes(RouteCollection routes)
+{
+           routes.MapRoute(
+               name: "TestDev",
+               url: "jasmine/dev",
+               defaults: new { controller = "Test", action = "Dev" }
+           );
+}
+
+configure in: C:\dynamo\Web UI\Dynamo6\Dynamo6Web2\Dynamo6Web2\Views\Test\Dev.cshtml
+@section head
+{
+    ...
+    <script type="text/javascript">testRun = "@Guid.NewGuid()";</script>
+    <script type="text/javascript">var tenantName = "gi1";</script>
+    <script src="spec\unitTests\views\Dynamo.view.dynamolayout.js"></script>
+}
+
+// -----------------------------------------------
+// Successfully pushed to origin/training/givanov.
+// -----------------------------------------------
+
+http://examples.sencha.com/extjs/6.2.0/examples/classic/tree/locking-treegrid.js
+
+http://examples.sencha.com/extjs/6.2.0/examples/classic/tree/treegrid.json
+
+http://examples.sencha.com/extjs/6.2.0/examples/classic/tree/treegrid.json?_dc=1526029399283&node=root
+
+// -----------------------------------------------
+// MobileSite
+// -----------------------------------------------
+https://dynamoweb1.netagesolutions.com:1818			(Debug)
+https://dynamoweb1.netagesolutions.com:1818/Account/LogOn
+
+configure	C:\Dynamo\Web UI\MobileSite\MobileSite2\App_Data\slots.xml
+
+<!-- <DynamoSlot Name="x"  Url="https://dynamoweb1.netagesolutions.com:6070" /> -->
+     <DynamoSlot Name="x"  Url="https://dynamoweb1.netagesolutions.com:7040" />
+
+start:	!!! you must have active tenant 'gi6' at https://dynamoweb1.netagesolutions.com:7040/slot
+
+rights  !!! https://dynamoweb1.netagesolutions.com:7040/site
+	> Site settings > Users > mobile license: Full
+	dynamoadmin@gi6.com
+	gi6.2018
+
+// -----------
+// Slots
+// -----------
+
+https://dynamoweb1.netagesolutions.com:7040/slot
+
+	5/11/2018 10:59:25 AM	creation log		gi6
+	5/11/2018 10:59:25 AM	inception sql server	dynamosql1\sql2016
+	5/11/2018 10:59:25 AM	inception flavor	Dynamo_74_PEVC
+	5/11/2018 10:59:25 AM	inception slot		https://dynamoweb1.netagesolutions.com:7040/
+	5/11/2018 10:59:25 AM	created by		NETAGESOLUTIONS\Givanov
+
+http://givanov-pc:81/slot				( localhost )
+http://givanov-pc:81/site/Login3.aspx
+C:\Dynamo\Web UI\Dynamo6\Dynamo6Web\ServiceConfig\TenantConfig
+		g1	
+		http://givanov-pc:81/site/
+		http://givanov-pc:81/site/Login3.aspx
+
+
+http://givanov-pc:81/slot
+
+	Debug: C:\Dynamo\Web UI\Dynamo6\Dynamo6Web2\Dynamo6Web2.sln
+
+
+// ----------------
+// http://staging.dynamosoftware.com/CMU/DynamoPublicFormsDemo
+// ----------------
+
+// ---------------------------------------------
+// Debug: {Dynamo6Web2}
+// --------------------------------------------
+
+---- LoginController.cs ----
+
+public ActionResult Index(string locale = "en", string ctoken = null, string rurl = null, string /*tenantName*/tn = null, string sessionexpired = null)
+{
+
+}
+enter:
+private LoginResult DoLogin(string userName, string password, string tenant, string locale = "en", string rurl = null, int gmtOffset = -13)
+{
+    tenants = DynamoOperationsLogin.GetTenantsForLogin(Request.UserHostAddress, userName, password);
+    // tenant = 1
+}
+
+#if DEBUG
+            DynamoOperations.App_Root_Path = @"C:\DynamoWebRoot\dynamo\new";
+#endif
+
+
+// -------
+// commits
+// -------
+
+appsettings.json
+{
+	//"DynamoFilebank": "D:\\Projects\\Dynamo\\Prototypes\\Peter\\DynamoPublicForms\\DynamoPublicForms\\wwwroot\\FileBank",
+	"DynamoFilebank": "C:\\Dynamo\\Prototypes\\Peter\\DynamoPublicForms\\DynamoPublicForms\\wwwroot\\FileBank",
+}
+
+	 
+
+https://dynamoweb1.netagesolutions.com:6070/slot
+
+
+http://localhost:65318/new/jasmine/dev?spec=koko
+
+
+C:\Dynamo\Web UI\Dynamo6\Dynamo6Web2\Dynamo6Web2\jasmine\spec\unitTests\views\ Dynamo.view.dynamolayout.js
+
+http://localhost:65318/new/jasmine/dev?spec=Dynamo.view.dynamolayout.DynamoLayout%20changing%20tabs%20should%20persist%20the%20tab%20index%20in%20the%20dynamoLayout
+
+
+
+
+
+
+
+ViewController.js
+	renderLayout:
+
+/app/Dynamo/view/workview/item/ViewController.js
+reloadLayout: function (cb) {
+
+  /app/Dynamo/view/workview/item/ViewController.js
+  renderLayout: function (cb) {
+
+    /app/Dynamo/view/dynamolayout/DynamoLayoutController.js
+    doInitAfterRender: function (cb) {
+
+      /app/Dynamo/view/dynamolayout/DynamoLayoutController.js
+      initializeLayout: function (dynamoLayout, cb) {
+
+        renderOptions: function (cb)
+        {
+          view.add(data)
+        }
+      }
+
+
+
+
+
+  
+
+
+My Home:
+    _doProcessChangeDetails
+        loadLayout: function (layoutKey, options, cb) 
+            loadLayouts: function (layoutKey, options, cb)
+                fireSuccess: function (data)
+		fireSuccess: function (data)
+
+
+3. loadlayouts:
+
+
+
+
+------------------------------------------------------------------------
+Ext.Ajax.request({ 
+params: {
+	layoutKey: layoutKey,			//'homeworkview:treeroot\workspaces\my home'
+	parentDynamoId: parentDynamoId,		//'00000000-0000-0000-0000-000000000000'
+	parentEntityName: parentEntityName,	// undefined
+        }
+})
+
+----------------------------
+
+@theme		'modern'
+@userId		{4122d5c4-90d0-44ed-873e-390fd96d3818}
+@layoutKey0	'homeworkview:treeroot\workspaces\cash flow management'
+--------------------------------------------------------------------------------
+;WITH cte AS
+(
+   SELECT *, ROW_NUMBER() OVER (PARTITION BY name ORDER BY w ASC) AS rn
+   FROM (
+        select u.id, u.name, u.data, u.theme, u.ref_user, null as ID2_UserGroup, 1 as w
+		from uiconfig u
+		left join uiconfig_usergroup uu on u.ID = uu.ID1_uiconfig
+		where (theme = @theme) AND name in (@layoutKey0) AND u.Ref_user = @userId  AND uu.ID2_UserGroup IS NULL
+union 
+        select u.id, u.name, u.data, u.theme, null as ref_user, uu.ID2_UserGroup, 2 as w
+		from uiconfig u
+		left join uiconfig_usergroup uu on u.ID = uu.ID1_uiconfig
+		where (theme = @theme) AND name in (@layoutKey0) AND u.Ref_user IS NULL AND uu.ID2_UserGroup = (SELECT Ref_UserGroup FROM [User] WHERE ID = @userId)
+union
+        select u.id, u.name, u.data, u.theme, null as ref_user, null as ID2_UserGroup, 3 as w
+		from uiconfig_defaults u
+		where (theme = @theme) and name in (@layoutKey0) 
+   ) tt
+)
+SELECT *
+FROM cte
+WHERE rn = 1
+-------------------------------------------------------------------------------------------
+;WITH cte AS
+(
+   SELECT *, ROW_NUMBER() OVER (PARTITION BY name ORDER BY w ASC) AS rn
+   FROM (
+        select u.id, u.name, u.data, u.theme, u.ref_user, null as ID2_UserGroup, 1 as w
+		from uiconfig u
+		left join uiconfig_usergroup uu on u.ID = uu.ID1_uiconfig
+		where (theme = @theme) AND name in (@layoutKey0) AND u.Ref_user = @userId  AND uu.ID2_UserGroup IS NULL
+		union 
+        select u.id, u.name, u.data, u.theme, null as ref_user, uu.ID2_UserGroup, 2 as w
+		from uiconfig u
+		left join uiconfig_usergroup uu on u.ID = uu.ID1_uiconfig
+		where (theme = @theme) AND name in (@layoutKey0) AND u.Ref_user IS NULL AND uu.ID2_UserGroup = (SELECT Ref_UserGroup FROM [User] WHERE ID = @userId)
+		union
+        select u.id, u.name, u.data, u.theme, null as ref_user, null as ID2_UserGroup, 3 as w
+		from uiconfig_defaults u
+		where (theme = @theme) and name in (@layoutKey0) 
+   ) tt
+)
+SELECT *
+FROM cte
+WHERE rn = 1
+-------------------------------------------------------------------------------------
+
+
+
+//////// https://dynamoweb1.netagesolutions.com:6070/ ----- not working
+
+
+https://dynamoweb1.netagesolutions.com:7040/slot
+[v]	overwrite existing
+
+tenant		gi6
+database	dynamosql1\sql2016 , gi6_Dynamo74
+
+
+
+	dynamoadmin@gi6.com
+	gi6.2018
+
+	
+(Debug)
+http://localhost:65318/new/Login?sessionexpired=1
+	dynamoadmin@gi1.com
+	gi1.2018
+
+// ---- LoadLayout configs
+public ActionResult LoadLayout(string[] layoutKey, string parentEntityName, string parentDynamoId, bool includeFiltered = false)
+|
++ - LayoutOperations.GetLayoutByKey(site, theme, layoutKey);
+
+
+
+
+
+this.Endpoint.Address = new EndpointAddress("http://givanov-pc:81/ServiceConfig/TenantConfig/gi1/backend.svc");
+
+
+// -------------------------------------------
+// TODO: search '>>> Service is activating '
+// -------------------------------------------
+
+
+????? ----- why dublicated --------
+C:\dynamo\build\slot\ServiceConfig\TenantConfig\gi1\Backend.svc
+C:\dynamo\Web UI\Dynamo6\Dynamo6Web\ServiceConfig\TenantConfig\gi1\Backend.svc
+
+// ------------------------------------------------
+// TODO: Create new slot/tenant from IIS/local:
+// ------------------------------------------------
+
+http://givanov-pc:81/slot
+{
+    NETAGESOLUTIONS\Givanov
+    ToChange123
+}
+tenant		g3
+database	Data Source=GIVANOV-PC\SQL2017;Initial Catalog=gi3_dynamo;
+folder		C:\DynamoWebRoot\dynamo\ServiceConfig\TenantConfig\gi3
+
+
+
+
+// -------------------------------------
+// TODO: substitute Backend.svc
+// ------------------------------------------
+System.ServiceModel
+
+public EndpointAddress(string uri);
+
+
+System.ServiceModel.EndpointAddress
+
+EchoServiceClient client = new EchoServiceClient();
+client.Endpoint.Address = new EndpointAddress("http://id.web/Services/EchoService.svc"); 
+
+
+
+
+
+
+Ext.Component                // system
+|
++- Ext.Container.Container   // system
+   |
+   +- 
+
++- Ext.container.Viewport    // system
+
+
+Ext.app.Controller           // system
+|
++- Dynamo.controller.Root                    // app\dynamo\controller\Root.js			(58 KB)
++- Dynamo.controller.CrudDialogController    // app\dynamo\controller\CrudDialogController.js	(14 KB)
+
+---------------------------------
+Installed
+ Web --> 	1. ASP.NET Web Application (.NET Framework)
+		2. Web API ( [ ] Web Forms, [v] MVC, [v] WebAPI )
+  
+---------------------------------
+39035: Audax_PE: CUSTOM Send Auto Emails for NDA and CIM uploads - Modification of the CIM Uploaded WF Logic
+
+Description:
+Client requested that we slightly modify the WF CUSTOM Send Auto Emails for NDA and CIM uploads in its CIM Uploaded WF Logic part.
+Please, find updated specification attached.
+Please, use Audax_PE site on Staging for testing purposes.
+---------------------------------------------------------
+// -----------------
+// SourceTree
+// ------------------
+SourceTree > Clone > 	https://kraken.netagesolutions.com/tfs/DynamoSoftware/_git/Dynamo 
+			checkout: develop
+			C:\dynamo_27	(97,962 Files, 22,677 Folders, 6.64 GB)
+
+Dynamo solutions   >	C:\Dynamo_27\Web UI\Dynamo6\Dynamo6.sln		(classic Web)
+			
+
+printer: Kyosera Mita FS-1920
+
+--------------------------------------------------
+// TODO: workflow
+// Send email with content: subjects of all activities for the day
+// each day at 7:00 AM  (trigger schedule)
+// to: all contacts from 'Company1' with emails, of type 'Internal' and not type 'Consultant'
+//   + email: ivanc@dynamosoftware.com
+// to: all adresses (,,,,,,)
+//-------------------------------------------------------
+
+///// catch schedule with name 'shed1'
+trigger
+   Operation <- 'schedule'
+   Value <- 'shed1'
+  
+today: formula
+   Formula <- 'return DateTime.Now.ToString("yyyy-MM-dd");'
+	
+activities: search
+   Query <- '<advf><e name="Activity">\
+              <rule prop="Date" op="is_date"><values><v>{0}</v></values></rule>\
+             </e></advf>'
+   0 <- today.Result
+   
+activityList: aggregate
+   Formula <- 'if (args[0] != null) return string.Format(@"{0},\
+   {1}", args[0], args[1]); else return string.Format("{0}", args[1]);'
+   <- activities.Subject
+ 
+contacts: search
+   Query <- '<advf>\
+            <e name="Contact">\
+             <rule prop="CompanyName" op="is"><values><v>{0}</v></values></rule>\
+             <rule prop="Email" op="not_is"><values><v>{1}</v></values></rule>\
+             <rule prop="Contacttype" op="contains"><values><v>{2}</v></values></rule>\
+             <rule prop="Contacttype" op="not_contains"><values><v>{3}</v></values></rule>\
+            </e>\
+           </advf>'
+   0 <- 'xxx'
+   1 <- ''
+   2 <- 'A33E4976-2ECD-4583-9DB5-A8BF298FF87D'
+   3 <- '1F80A55A-018E-4578-8A30-A92ACF9EE7ED'
+ 
+contactList: aggregate
+   Formula <- 'if (args[0] != null) return string.Format(@"{0},\
+   {1}", args[0], args[1]); else return string.Format("{0}", args[1]);'
+   <- contacts.Email
+  
+emailList: concat
+   Template <- "{0}, {1}"
+   0 <- contactList
+   1 <- 'ivanc@dynamosoftware.com'
+
+email
+   To <- emailList
+   Subject <- 'Activities for the day'
+   Body <- activityList
+
+-------------------------------------------
+// Search / fetchadvf by multi creterias
+//-----------------------------------------
+cont0: search
+ Query <- '<advf>\
+	     <e name="Contact">\
+		<rule prop="CompanyName" op="is"><values><v>{0}</v></values></rule>\
+		<rule prop="Email" op="not_is"><values><v>{1}</v></values></rule>\
+                <rule prop="Contacttype" op="not_contains"><values><v>{2}</v></values></rule>\
+	    </e>\
+	</advf>'
+ 0 <- 'xxx'
+ 1 <- ''
+ 2 <- '1F80A55A-018E-4578-8A30-A92ACF9EE7ED'
+
+// ---- equal to ----------------
+cont1: fetchadvf
+   Entity <- 'Contact'
+   CompanyName <- '{ op: 'is', value: 'xxx' }'
+   Email <- '{ op: 'not_is', value: '' }'
+   Contacttype <- '{ op: 'not_contains', value: '1F80A55A-018E-4578-8A30-A92ACF9EE7ED' }'
+
+//// 
+create
+ Entity <- 'Task'
+ Subject <- 'schedule_1 was executed at 19:20'
+
+
+//// catch any error
+
+trigger
+   Operation <- 'error'
+
+//// search with advanced find query
+
+email
+   To <- 'givanov@dynamosoftware.com'
+   Subject <- 'email from workflow'
+   Body <- trigger.Error details
+
+----------------------------
+create
+  Entity <- 'Workflow Logic'
+  KeyColumn <- 'Internal ID'
+  Internal ID <- trigger.EntityKey
+  Enabled <- 'false'
+---------------------------------
+
+EntityFramework  	v.6.2.0  ( 42,8 M)
+
+
+<Entity ....... name="Contact" >						// Contact - entity name
+
+ <Property .... name="ContactInfo_Email" ref="Ref_ContactInfo" type="ref" >	// Ref_1 - name of reference
+ <Reference ... name="Ref_ContactInfo"  type="ContactInfo">			// Entity_1 - name of Entity(Table)
+
+<Property id="f202932a-e65a-49c2-9f30-e331b7429fa3" type="ref" name="ContactPerformance" system="true" ignoreForGrids="true" auditTrail="true" 
+		ref="Ref_ContactPerformance" refprop="BusinessAddress_Country" label="Contact performance" quick="true" lookupsource="L_ContactPerformance" />
+
+<Property id="73fa057d-1190-44c2-ba9e-aecf4ee46f56" type="ref" name="ContactInfo_PrimaryAddress_Country" readonly="true" system="true" auditTrail="true" ref="Ref_ContactInfo" refprop="PrimaryAddress_Country" label="Country" lookupsource="L_Country" />
+<Property id="b31e11dc-26ff-42c4-83d5-1a166f079fe3" type="ref" name="ContactInfo_BusinessAddress_Country" ignoreForGrids="true" auditTrail="true" ref="Ref_ContactInfo" refprop="BusinessAddress_Country" label="Business country" quick="true" nfo="13" cio="7" lookupsource="L_Country" />
+
+
+------------------------------------------------------------------------------------------------------------------------
+ TODO: deploy property 'Contact performance' in entity 'Contact' and lookup table with performance values Low, Mid, High
+------------------------------------------------------------------------------------------------------------------------
+
+put sql query in data pack
+
+sql query :	
+	set average performance for all contacts. 
+	Performance to be below expectatiobns, meets..., above...
+
+lookup ContactType value '
+-------------------------------------------------
+
+[dialog]
+[ New Contact ----------------- ]
+[				]
+[ Business country		]
+
+deploy schema file/ 
+		schm2.xml
+		*.sql
+		*. 	(import file)
+
+
+
+---- open TestExplorer ----
+VisualStudio > Test > Windows > Test Explorer
+
+(workflow examples)
+X:\Products\Enterprise\Dynamo 6.0\D6 Education & Docs\D6 Workflows\Demo Workflows
+
+(datapack example)
+C:\Dynamo\Web UI\Dynamo6\Backend\Addons\D6S.Addon.Core.DataSubmissionForms.Shared\Datapack
+
+----------------------------------------------------------------------------------
+to do 
+read: 
+	select, search, ifnoresult, aggregate, formula, filter, limit, concat
+	fetchrelated
+----------------------------------------------------------------------------------
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+TODO: when Company.CompanyType 'Consultant' is removed, remove Contact.ContactType 'Consultant' of all RELATED internal contacts
+---------------------------------------------------------------------------------------------------------------------------------
+trigger
+ Entity <- 'Investor_L_CompanyType'
+ Operation <- 'delete'
+ Sub-key 1 <- '115D6F37-8727-4FD6-8EB3-B2B23A78D323'
+
+//person: fetch
+// Entity <- 'Contact'
+// Contact type  <-'Consultant'
+// Company <- trigger.Sub-key 0
+
+person: fetchrelated
+ ParentEntity <- 'Company'
+ ParentEntityKey <- trigger.Sub-key 0
+ Entity <- 'Contact'
+
+person_type: formula
+ Formula <- 'return string.Format("{0}", args[0]).Replace("Consultant;","");'
+ 0 <- person.Contact type
+ perID <= person.Internal ID
+
+create
+ Entity <- 'Contact'
+ KeyColumn <- 'Internal ID'
+ Internal ID <- person_type.perID
+ Contact type {Exact} <- person_type.Result
+
+----------------------------------------------------------------------------------------------
+// when CompanyType is set to 'Consultant', set all RELATED internal contacts to 'Consultant'
+----------------------------------------------------------------------------------------------
+// company name		'cc'
+// company id		'410bddb7-7c9a-418a-87cf-19c7e11fcbde'
+// 'Consultant'		'115D6F37-8727-4FD6-8EB3-B2B23A78D323'
+
+trigger
+ Entity <- 'Investor_L_CompanyType'
+ Operation <- 'create'
+ Sub-key 1 <- '115D6F37-8727-4FD6-8EB3-B2B23A78D323'
+
+fetch
+ Entity <- 'Contact'
+ Company <- trigger.Sub-key 0
+
+create
+ Entity <- 'Contact'
+ KeyColumn <- 'Internal ID'
+ Internal ID <- fetch.Internal ID
+ Contact type  {Exact} <-'Consultant'
+
+-------------------------------------------------------
+concat values
+-------------------------------------------------------
+// EntityKey '115d6f37-8727-4fd6-8eb3-b2b23a78d323,410bddb7-7c9a-418a-87cf-19c7e11fcbde,2'
+// Sub-key 0 '115d6f37-8727-4fd6-8eb3-b2b23a78d323'	companyType 'Consultant'
+// Sub-key 1 '410bddb7-7c9a-418a-87cf-19c7e11fcbde'	comapy 'cc'
+
+c1: concat
+  Template <- 'c0 {0}, c1 {1}, c2 {2}'
+  0        <- trigger.Sub-key 0
+  1        <- trigger.Sub-key 1
+  2        <- trigger.Sub-key 2
+
+create
+ Entity <- 'Task'
+ Subject <- c1.Result
+
+
+person_type: formula
+ Formula <- 'return string.Format("{0}", args[0]).Replace("Consultant;","");'
+ 0 <- person.Contact type
+
+
+//info: concat
+// Template <- 'name {0}, type {1}'
+// 0 <- person.Full name
+// 1 <- person.Contact type
+
+//create
+// Entity <- 'Task'
+//// Subject <- person.Contact type
+//// Subject <- info.Result
+// Subject <- frml.Result
+
+//create
+// Entity<-'Task'
+//// Subject <- person_type.Result
+// Subject <- person_type.perID
+
+-------------------------------------------------------------------------------------------------------
+when Contact is created, set ContactType = 'Internal; Individual investor', if CompanyName is empty
+-------------------------------------------------------------------------------------------------------
+
+trigger
+ Entity <- 'Contact'
+ Operation <- 'create'
+
+fetch
+ Entity <- 'Contact'
+ Internal ID <- trigger.EntityKey
+ Company name <- ''
+
+create
+ Entity <- 'Contact'
+ KeyColumn <- 'Internal ID'
+ Internal ID <- fetch.Internal ID
+ Contact type  {Exact} <-'Internal; Individual investor'
+
+--------------------------------------------------------------------------------------------------
+when Contact.ConsultantType is set to 'Consultant', set Contact.CompanyName = 'Dynamo Software' 
+--------------------------------------------------------------------------------------------------
+
+trigger
+ Entity <- 'Contact_ContactType'
+ Operation <- 'create'
+ Sub-key 1 <- '1F80A55A-018E-4578-8A30-A92ACF9EE7ED'
+
+create
+ Entity <- 'Contact'
+ KeyColumn <- 'Internal ID'
+ Internal ID <- trigger.Sub-key 0
+ Company Name <- 'Dynamo Software'
+
+-----------------------------------------
+
+trigger
+ Operation <- 'propertychange'
+ Entity <- 'Contact'
+ Property <- 'Contact type'
+ Value <- 'Consultant'
+
+create
+  Entity <- 'Task'
+  Subject <- 'Welcome to Dynamo!'
+------------------------------------------
+
+trigger
+ Operation <- 'create'
+ Entity <- 'Contact'
+
+task: create
+ Entity <- 'Task'
+ Subject <- 'Welcome to Dynamo!'
+
+----------------------------------------------------------------
+create 'Activity' when 'Dynamo task'.'Ref_Taskstatus' is changed
+----------------------------------------------------------------
+trigger
+ Operation <- 'propertychange'
+ Entity <- 'Dynamo Task'
+  
+task: create
+  Entity <- 'Activity'
+  Subject <- 'Welcome to Dynamo!'
+
+----------------------------------------------------
+when Contact is created, create Task
+----------------------------------------------------
+trigger
+  Operation <- 'create'
+  Entity <- 'Contact'
+
+task: create
+  Entity <- 'Task'
+  Subject <- 'Welcome to Dynamo!'
+
+relation: create
+  Entity <- 'Task - Contact'
+  The Contact Parent <- trigger.EntityKey
+  The Task Parent <- task.ItemCreated
+
+email
+   To <- 'gsivanov@yahoo.com'
+   Subject <- 'Hi'
+   Body <- 'Please, read the document.'
+
+---------------------------------------------------
+
+C:\Dynamo\Web UI\Dynamo6\Dynamo6Web2\Dynamo6Web2\app\Dynamo\api\Layout.js
+
+
+======= New UI =====================================
+C:\Dynamo\Web UI\Dynamo6\Dynamo6Web2\Dynamo6Web2.sln
+
+http://localhost:65318/new/
+http://localhost:65318/new/Login?sessionexpired=1
+
+	dynamoadmin@gi1.com
+	gi1.2018
+--- error ------------------------------------------
+System.IO.DirectoryNotFoundException
+  HResult=0x80070003
+  Message=Could not find a part of the path 'C:\Development\Dynamo\Web UI\Dynamo6\Dynamo6Web\web.config'.
+
+Global.asax.cs
+
+   //DynamoOperations.App_Root_Path = @"C:\Development\Dynamo\Web UI\Dynamo6\Dynamo6Web2\Dynamo6Web2";
+   DynamoOperations.App_Root_Path = @"C:\DynamoWebRoot\dynamo\new";
+---------------------------
+
+There was no endpoint listening at http://localhost:1355/licenceservice.svc that could accept the message.
+This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+
+----- classic UI ---------------
+http://localhost:52872/
+http://localhost:52872/site/Default.aspx
+.............................
+
+// ---------------------------
+// Install SQLite on Windows
+// ----------------------------
+1. download precompiled binaries from Windows section ( https://www.sqlite.org/download.html )
+
+Precompiled Binaries for Windows
+	sqlite-dll-win32-x86-3230100.zip	32-bit DLL (x86) for SQLite version 3.23.1.
+			    (440.60 KiB)	(sha1: 8e80d9b2dbb48eac273f4a9f7ff195fed08f1074)
+
+
+2. Download sqlite-shell-win32-*.zip and sqlite-dll-win32-*.zip zipped files.
+3. Create a folder C:\>sqlite and unzip above two zipped files in this folder, which will give you sqlite3.def, sqlite3.dll and sqlite3.exe files.
+4. Add C:\>sqlite in your PATH environment variable and finally go to the command prompt and issue sqlite3 command, which should display the following result.
+
+
+// C:\Dynamo\Web UI\Dynamo6\Dynamo6Web2\Dynamo6Web2\app\Dynamo\api\Layout.js:            
+url: dynamoUrl('/Layout/LoadLayout'),
+
+// C:\Dynamo\Web UI\Dynamo6\Dynamo6Web2\Dynamo6Web2\Controllers\LayoutController.cs:
+public ActionResult LoadLayout(string[] layoutKey, string parentEntityName, string parentDynamoId, bool includeFiltered = false)
+
+// -------------------------------------------------------------
+// EDL.xml definitions
+// -------------------------------------------------------------
+Association - is relation between
+	property with type="image" (multi-select)
+	entity lookup="true"
+	
+<Entity id="886605ed-3a0b-493e-a5d1-e37d4f2866e3" name="Contact" root="true" system="true" primary="true" singlename="Contact" pluralname="Contacts" icon="../img/contact_mini.png" bigico="../img/contact.png" InvSource="true" InvTarget="true" esp="11" qs="true" ps="true" psp="6" change="2016-06-27 10:59:21" publish="2016-06-27 11:00:02" showInMobile="true">
+	<Property id="b8316a2f-49eb-4764-aca7-362a7c5c82d5" type="image" name="Contacttype" auditTrail="true" fullTextIndexed="true" ImageSource="Contact_ContactType" label="Contact type" quick="true" nfo="5" mfo="4" change="2013-11-26 03:29:39" publish="2013-11-26 03:29:39" />
+</Entity>
+
+<Entity id="8e4323c7-4a1b-4f16-923b-3d57a71a7aec" name="ContactType" lookup="true" alphabetical="false" system="true" thirdType="true" singlename="Contact Type" pluralname="Contact Types" icon="../img/default_mini.png" change="2013-11-26 03:29:39" publish="2013-11-26 03:29:39">
+	<Property id="535274af-0712-4af6-964a-71f95b018ef1" type="string" name="ContactType" identity="true" size="50" label="Contact type" change="2013-11-26 03:29:39" publish="2013-11-26 03:29:39" />
+	<Property id="bd2cd73f-5f4e-4c43-a4b8-6dc2d72f6481" type="key" name="EntityKey" readonly="true" system="true" label="Internal ID" change="2013-11-26 03:29:39" publish="2013-11-26 03:29:39" />
+	<Property id="fc385610-90ee-4f4c-b7ea-ac6f1de9aec0" type="integer" name="DisplayOrder" label="DisplayOrder" change="2013-11-26 03:29:39" publish="2013-11-26 03:29:39" />
+	<Property id="5ec48baf-aa82-4aca-99a6-925b5220225f" type="bool" name="IsSystem" readonly="true" system="true" label="System" change="2013-11-26 03:29:39" publish="2013-11-26 03:29:39" />
+</Entity>
+
+<Association id="625354d8-7843-4492-8152-c3c6df44960c" name="Contact_ContactType" entA="Contact" entB="ContactType" singlename="Contact_ContactType" pluralname="Contact_ContactTypes" icon="../img/default_mini.png" change="2013-11-26 03:29:39" publish="2013-11-26 03:29:39">
+	<Property id="902bf7b3-eff1-4216-acff-61f49938678f" type="key" name="RelationKey" readonly="true" system="true" label="Relation ID" change="2013-11-26 03:29:39" publish="2013-11-26 03:29:39" />
+</Association>
+-------------------------------------------------------
+
+WindowsExplorer:
+\\192.168.100.45      	( https:\\rome.netagesolutions.com )
+
+\\192.168.100.45\WebRoot\Rome\ServiceConfig\TenantConfig\DevDynamo		(DevDynamo tenant)
+
+Data Source		romesql1
+Initial Catalog		DevDynamo
+User ID			DevDynamo_readonly
+Password		dAG5Xq51235CDDf
+
+http://givanov-pc:81/site/Login3.aspx
+	dynamoadmin@gi1.com
+	gi1.2018
+	
+
+https://rome.netagesolutions.com/slot
+	NETAGESOLUTIONS\Givanov
+	ToChange123
+
+https://rome.netagesolutions.com/site/Login.aspx		( classic UI )
+	givanov@dynamosoftware.com
+	W?3Mg4~_J0
+
+https://rome.netagesolutions.com/new/Login?sessionexpired=1	( new UI )
+https://rome.netagesolutions.com/new/?tn=DevDynamo#typetableviewNamegridpanelviewtreerootsavedsearchesdevelopmentpolicymyworkmyrequirementsworkesIssuegroupsnull
+
+	givanov@dynamosoftware.com
+	W?3Mg4~_J0
+
+
+Windows Login:
+
+	GIvanov
+	ToChange123
+
+1.	https://mspartner.microsoft.com/en/au/Pages/Membership/Slimplified-association-process.aspx
+	https://partner.microsoft.com/en-US/membership/my-membership
+	https://partners.microsoft.com/partnerprogram/Welcome.aspx
+
+	Orgenisation name:	Netage
+	Organisation Url:	http://www.dynamosoftware.com
+
+
+Dynamo directory:
+	http://intranet/Directory/default.aspx
+
+Documentation:
+	http://docs.netagesolutions.com/login
+	Givanov
+	ToChange123
+
+	"workflow logic" - Search
+
+Outlook (desktop) at work
+	givanov@dynamosoftware.com
+
+Microsoft Account
+	gsivanov@outlook.com
+	S*******1
+
+Dynamo Account
+	NETAGESOLUTIONS\Givanov
+	ToChange123
+
+Dynamo Team
+	https://kraken.netagesolutions.com/tfs/DynamoSoftware/Dynamo/DynamoTeam/-git/Dynamo
+
+0.	https://kraken.netagesolutions.com/tfs/DynamoSoftware/Dynamo/
+	(opens without login)
+
+	NETAGESOLUTIONS\Givanov
+
+--- git repository to clone (Dynamo all branches)
+	https://kraken.netagesolutions.com/tfs/DynamoSoftware/_git/Dynamo
+
+	https://kraken.netagesolutions.com/tfs/DynamoSoftware/Dynamo/DynamoTeam/-git/Dynamo
+	(error: no such page)
+
+--- office / chrome ---
+
+--- office / opera ---
+	https://kraken.netagesolutions.com/tfs/DynamoSoftware/Dynamo/
+	(opens without login)
+
+-------------------------------------
+Good news! You are now connected to the Microsoft Partner Network and associated with (4998981). 	
+
+	Organization Partner ID: 
+	1055432 
+
+	Location Partner ID: 
+	4998981 
+
+PS C:\windows\system32> $\scripts\00_install_build.ps1
+$\scripts\00_install_build.ps1 : The module '$' could not be loaded. For more information, run 'Import-Module $'.
+
+
+PS C:\dynamo74\dynamoci> python csproj.py C:\dynamo74 --restore
+
+
+Clone Dynamo Git repository
+	https://kraken.netagesolutions.com/tfs/DynamoSoftware/_git/Dynamo
+
+web socket from backEnd refresh UI panel
+
+Git Credential Manager for Windows:
+
+	NETAGESOLUTIONS\Givanov
+	ToChange123
+
+install Visual Studio Command Prompt:
+	https://marketplace.visualstudio.com/items?itemName=ShemeerNS.VisualStudioCommandPromptdevCmd
+
+PowerShell with Admin rights
+
+	choco install python2 -y
+	choco install jdk8 -y
+	choco install nodejs-lts -y
+	choco install visualstudiocode -y
+	choco install visualstudio2017enterprise  -y
+	choco install visualstudio2017-workload-manageddesktop -y
+	choco install visualstudio2017-workload-netcoretools -y
+	choco install visualstudio2017-workload-netweb -y
+	choco install visualstudio2017-workload-node -y
+	choco install visualstudio2017-workload-office -y
+	choco install netfx-4.6.2-devpack -y
+	choco install dotnet3.5 -y
+	choco install ms-reportviewer2015 -y
+	choco install nuget.commandline -y
+	choco install googlechrome -y
+	choco install sql-server-management-studio -y
+	choco install 7zip -y
+
+// -----------------
+// Tenants / EDL.xml
+// -----------------
+
+ created on https://dynamoweb1.netagesolutions.com:6070/site/ 
+\\dynamoweb1.netagesolutions.com\WebAppFiles\Dev3DailyBuild\ServiceConfig\TenantConfig\gi5\
+
+
+// --------------------------
+// Notepad++
+// ---------------------------
+--- import into Notepad++ ----------------
+	Language / Define your language .. / Import
+	Workflow_Logic_Language_v1.xml
+
+--- pritify -----
+	Plugins \ XML Tools \ Pritty print (XML Only - with line brakes)
+	Ctrl + Alt + Shift + B
+
+
+http://localhost:52872/site/Login.aspx		( Dynamo6Web )
+
+
+
+https://support.microsoft.com/en-us/help/4028054
+
+https://dynamoweb1.netagesolutions.com:6070/login/admin/init.aspx
+
+https://dynamoweb1.netagesolutions.com:6070
+https://dynamoweb1.netagesolutions.com:6070/slot
+	
+	{ --- browser login ----
+		NETAGESOLUTIONS\Givanov
+		ToChange123
+	}
+
+	base_pevc
+	dynamoadmin@base_pevc
+	base_pevc.2018
+
+	creates database on:
+	dynamosql1\sql2016(SQL Server 13.0.5026.0 - profiler)
+
+https://dynamoweb1.netagesolutions.com:6070/site/Login3.aspx
+
+
+Backup sql database:
+http://www.manex.com/kb/default.asp?id=5672
+
+	BACKUP DATABASE [manex]
+	TO DISK = N'C:\TEST_SQLBACKUP.bak'
+
+http://dynamoweb1.netagesolutions.com:4320/DIFService
+
+http://dynamoweb1.netagesolutions.com/
+
+
+http://givanov-pc:81/site/Login3.aspx
+
+---------------------------------
+
+	GeocodingLoop()
+
+SELECT [TFAEnabled], [DSEnabled] FROM [UserLevelAuthentication] where [Ref_User] = '4122d5c4-90d0-44ed-873e-390fd96d3818'
+
+Invalid object name 'UserLevelAuthentication'.
+
+
+----- Create Tenant -----
+
+url		http://localhost:81/slot
+		http://localhost:81/slot/
+
+tenant		gi1
+user		dynamoadmin@gi1.com
+pass		gi1.2018
+
+(Shared tenants)
+\\dynamoweb1\WebAppFiles\Dynamo74\ServiceConfig\TenantConfig
+
+(search: 'gi2')
+\\dynamoweb1\WebAppFiles\Dev3DailyBuild\ServiceConfig\TenantConfig\gi2
+\\dynamoweb1\WebAppFiles\Dev3DailyBuild_7_5_20180427_2334\ServiceConfig\TenantConfig\gi2
+\\dynamoweb1\WebAppFiles\Dynamo74_7_4_20180412_2228\ServiceConfig\TenantConfig\gi2
+
+
+https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+Download Git
+	http://git-scm.com/download/win
+
+
+http://git.netagesolutions.com
+
+
+
+Visual Studio Team Services - Free Account
+https://www.visualstudio.com/team-services/
+
+	--- Login with MS account ---
+		zastav@outlook.com
+		S*******2
+
+	zastav.visualstudio.com
+	[*] Git
+	[ ] Team Foundation Version Control
+
+
+
+C:\dynamo74\Web UI\Dynamo6\Dynamo6Web\ServiceConfig\TenantConfig
+
+
+
+https://kraken.netagesolutions.com/tfs/DynamoSoftware/_git/Dynamo
+
+https://kraken.netagesolutions.com/tfs/DynamoSoftware/_git/Dynamo
+
+
+9B501E82-BBA3-4EC8-AA1B-BAC763F81B42
+
+9b501e82-bba3-4ec8-aa1b-bac763f81b42
+
+
+C:\dynamo74\Web UI\Dynamo6\Dynamo6Web\ServiceConfig\TenantConfig\gi1\EDL.xml
+
+http://docs.netagesolutions.com/WorkflowLogic/#Integration_in_Dynamo
+Workflow examples:
+---------------
+// sends an email:
+
+email
+   To <- 'gsivanov@yahoo.com'
+   Subject <- 'Hi'
+   Body <- 'Please, read the document.'
+
+---------------------------------------
+// creates a contact with name John Smith:
+
+create
+   Entity <- 'Contact'
+   Full name <- 'John Smith'
+
+--------------------------------------
+
+The core of the Dynamo Workflow Logic is the scripting language 
+for defining workflows and the interpreter that executes them.
+A part of the feature is a Dynamo backend add-on (D6S.Addon.Core.Workflow)
+
